@@ -5,14 +5,14 @@ $nacional = [
   "titulo" => "Dina Boluarte deja la presidencia del Perú tras semanas de crisis política",
   "autor" => "La República",
   "resumen" => "Dina Boluarte deja la presidencia como la mandataria más impopular del mundo y Perú: 93% de desaprobación y 0% entre jóvenes y el sur.",
-  "imagen" => "img/dina.png"
+  "imagen" => "../img/dina.png"
 ];
 
 $internacional = [
   "titulo" => "Estados Unidos y China reanudan conversaciones económicas de alto nivel en Pekín",
   "autor" => "Demócrata",
   "resumen" => "Delegaciones de alto nivel de Estados Unidos y China se reunieron en Pekín para retomar el diálogo económico bilateral, tras meses de tensiones comerciales y tecnológicas. Ambas potencias coincidieron en mantener la comunicación abierta y evitar una escalada que afecte al comercio global.",
-  "imagen" => "img/internacional.jpg"
+  "imagen" => "../img/internacional.jpg"
 ];
 ?>
 
@@ -74,26 +74,6 @@ $internacional = [
         </div>
       </div>
       <!-- FIN BLOQUE INTERNACIONAL Y NACIONAL -->
-
-      <!-- AQUI VAN TUS DEMÁS SECCIONES -->
-      <?php
-        include("secciones/economia.php");
-        include("secciones/opinion.php");
-        include("secciones/tecnologia.php");
-        include("secciones/ciencia.php");
-        include("secciones/cultura.php");
-        include("secciones/gente.php");
-        include("secciones/deportes.php");
-        include("secciones/television.php");
-        include("secciones/video.php");
-        include("secciones/formacion.php");
-        include("secciones/empleo.php");
-        include("secciones/sociedad.php");
-        include("secciones/openstack.php");
-        include("secciones/git.php");
-        include("secciones/contenedores.php");
-        include("secciones/openshift.php");
-      ?>
 
       <footer class="blog-footer">
         <p>Plantilla construida con <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
