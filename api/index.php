@@ -7,7 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.png">
-
+    <?php if (!empty($internacional["imagen"])): ?>
+      <img src="<?php echo $internacional["imagen"]; ?>" class="img-fluid rounded mb-2" alt="Imagen noticia internacional">
+    <?php endif; ?>
     <title>DIARIO EL HOCICÓN</title>
 
     <!-- Bootstrap core CSS -->

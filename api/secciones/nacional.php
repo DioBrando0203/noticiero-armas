@@ -8,7 +8,7 @@ $nacional = [
 "autor" => "La República",
 "resumen" => "Dina Boluarte deja la presidencia como la mandataria más impopular del mundo y Perú: 93% de desaprobación y 0% entre jóvenes y el sur
 ",
-"imagen" => "/workspaces/noticiero-armas/dina.png"
+"imagen" => "api/secciones/dina.png"
 
 ];
 ?>
